@@ -1,0 +1,21 @@
+---
+abstract: 'Keeps track of progress status'
+author:
+  - 'Steven Humphrey'
+build_requires:
+  YAML::Any: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dancer2-Plugin-ProgressMeter
+requires:
+  Dancer2: 0.09
+  Digest::MD5: 2.53
+  JSON: 0
+  Path::Tiny: 0.037
+version: 0.01
