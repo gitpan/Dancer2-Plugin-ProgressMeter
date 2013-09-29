@@ -21,14 +21,15 @@ my %WriteMakefileArgs = (
   "NAME" => "Dancer2::Plugin::ProgressMeter",
   "PREREQ_PM" => {
     "Dancer2" => "0.09",
-    "Digest::MD5" => "2.53",
+    "Digest::MD5" => 0,
     "JSON" => 0,
+    "Moo" => 0,
     "Path::Tiny" => "0.037"
   },
   "TEST_REQUIRES" => {
     "YAML::Any" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.011",
   "test" => {
     "TESTS" => "t/*.t"
   }

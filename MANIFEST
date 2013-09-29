@@ -4,10 +4,10 @@ META.yml
 Makefile.PL
 README
 README.md
-dist.ini
 example/bin/app.pl
 example/config.yml
 example/lib/Progress.pm
+example/public/client_progress.js
 lib/Dancer2/Plugin/ProgressStatus.pm
 lib/Dancer2/Plugin/ProgressStatus/Object.pm
 t/config.yml

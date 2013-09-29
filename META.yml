@@ -13,9 +13,15 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dancer2-Plugin-ProgressMeter
+recommends:
+  JSON::XS: 0
 requires:
   Dancer2: 0.09
-  Digest::MD5: 2.53
+  Digest::MD5: 0
   JSON: 0
+  Moo: 0
   Path::Tiny: 0.037
-version: 0.01
+resources:
+  bugtracker: https://github.com/shumphrey/Dancer2-Plugin-ProgressStatus/issues
+  repository: https://github.com/shumphrey/Dancer2-Plugin-ProgressStatus
+version: 0.011

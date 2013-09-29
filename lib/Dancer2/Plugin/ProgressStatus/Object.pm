@@ -23,7 +23,7 @@ Steven Humphrey
 
 package Dancer2::Plugin::ProgressStatus::Object;
 {
-  $Dancer2::Plugin::ProgressStatus::Object::VERSION = '0.01';
+  $Dancer2::Plugin::ProgressStatus::Object::VERSION = '0.011';
 }
 
 use strict;
